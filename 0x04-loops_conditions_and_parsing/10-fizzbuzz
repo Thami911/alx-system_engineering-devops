@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# Displays numbers from 1 to 100 in list format.
+#   Displays "Fizz" when the number is a multiple of 3.
+#   Displays "FizzBuzz" when the number is a multiple of 3 and 5.
+#   Otherwise, displays the number.
+#   Displays "Buzz" when the number is a multiple of 5.
 
 for a_num in {1..100}
 do
