@@ -9,7 +9,7 @@ while [ $hrs -le 12 ]
 do
   echo "hrs: $hrs"
   mins=1
-  while [ $mins -le 59 ]
+  while [ $mins -le 60 ]
   do
     echo "$mins"
     (( mins++ ))
