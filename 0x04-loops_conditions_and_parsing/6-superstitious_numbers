@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+poll=1
+
+while [ $poll -le 20 ]
+do
+  echo "$poll"
+  case $poll in
+    "4") echo "bad luck from China";;
+    "9") echo "bad luck from Japan";;
+    "17") echo "bad luck from Italy";;
+  esac
+  (( poll++ ))
+done

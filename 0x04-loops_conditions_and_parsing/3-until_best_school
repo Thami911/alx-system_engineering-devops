@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+pos=0
+
+until [ $pos -eq 10 ]
+do
+  echo "Best School"
+  ((pos++))
+done

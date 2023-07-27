@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+poll=0
+
+while [ $poll -lt 10 ]
+do
+  if [ $poll -eq 3 ]
+  then
+    echo "bad luck"
+  elif [ $poll -eq 7 ]
+  then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  (( poll++ ))
+done

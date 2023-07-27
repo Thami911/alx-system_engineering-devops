@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+pos=0
+
+while [ $pos -lt 10 ]
+do
+  if [ $pos -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( pos++ ))
+done

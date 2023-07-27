@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+hrs=0
+
+while [ $hrs -le 12 ]
+do
+  echo "hrs: $hrs"
+  mins=1
+  while [ $mins -le 59 ]
+  do
+    echo "$mins"
+    (( mins++ ))
+  done
+  (( hrs++ ))
+done
