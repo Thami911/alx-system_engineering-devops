@@ -1,0 +1,10 @@
+# Configuration file for the client
+Host *
+     passwordAuthentication no
+
+
+Host Alxserver
+
+     Hostname      54.165.88.198
+     user    ubuntu
+     IdentityFile    ~/.ssh/school
