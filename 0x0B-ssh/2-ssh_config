@@ -5,6 +5,6 @@ Host *
 
 Host Alxserver
 
-     Hostname      54.165.88.198
+     Hostname      52.204.73.191
      user    ubuntu
      IdentityFile    ~/.ssh/school
