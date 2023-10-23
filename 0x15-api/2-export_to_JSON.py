@@ -7,9 +7,9 @@ if __name__ == "__main__":
     import requests
     import sys
 
-    userId = sys.argv[1]
+    user_Id = sys.argv[1]
     user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
-                        .format(userId))
+                        .format(user_Id))
     to_do = requests.get('https://jsonplaceholder.typicode.com/todos')
     to_do = to_do.json()
 
